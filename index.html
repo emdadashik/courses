@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course and Resources</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <style>
+        #btn-update {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 15px;
+            background-color: #388e3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            border: none;
+            outline: none;
+        }
+
+        #btn-update:hover {
+            background-color: #2e7d32;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #2e7d32;
+            color: white;
+        }
+
+        /* Popup Overlay */
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+        }
+
+        /* Popup Content */
+        .popup-content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 90%;
+            /* Responsive for smaller screens */
+            max-width: 500px;
+        }
+
+        .popup-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Close Button */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        h1,
+        h2 {
+            margin: 0 0 20px;
+            color: #c8e6c9;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background-color: #263238;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px;
+            color: #81c784;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #388e3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            background-color: #2e7d32;
+        }
+
+        .coming-soon {
+            font-style: italic;
+            color: #ffcc80;
+        }
+
+        /* Popup Overlay */
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+        }
+
+        /* Popup Content */
+        .popup-content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .popup-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Close Button */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2e7d32;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Course and Resources</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Web Design</h2>
+            <div class="card">
+                <h3>UI UX Design by Ostad</h3>
+                <a href="https://terabox.com/s/19t4zLAJ8e9U7RBQrGcmrHw" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Web Design related MasterClasses</h3>
+                <a href="https://terabox.com/s/1GaUvrc8Up6EVAanJG8-_nQ" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Brand Design MasterClass (Flux Academy)</h3>
+                <a href="https://terabox.com/s/1bg_lDiPzY-YbLW85Db4rgw" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Arash Ahadzadeh ~ UI Design & Figma Mastery</h3>
+                <a href="https://terabox.com/s/1NnIBfEQtAXyoiJZ5TyLi-Q" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Lytbox Academy - Design with Elementor</h3>
+                <a href="https://terabox.com/s/1orQPDYqYSPUwQMfXjaH7yw" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Webflow Web Design (CMS Web Dev) [Flux Academy]</h3>
+                <a href="https://terabox.com/s/14oPsm84gSVOzvZermPVDRQ" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Psychology of Design</h3>
+                <a href="https://terabox.com/s/1r93xlHF4n7MSAIyPOwVU3g" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Path to Senior Product Designer {Digital Product}</h3>
+                <a href="https://terabox.com/s/11alygpuCqSIruv31_LgGDg" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Figma related some Bangla resources (MasterClasses)</h3>
+                <a href="https://terabox.com/s/18ZihLLQXzYLCmcuUUtZfiw" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>100 Days of Web Development (Academind Academy)</h3>
+                <a href="https://terabox.com/s/1SSq5Hhjk_pQbuYAVBbCLkQ" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>More Course Coming Soon</h3>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Design Resources</h2>
+            <div class="card">
+                <h3>Some Bangla Fonts that I bought for myself (Premium)</h3>
+                <a href="https://terabox.com/s/1TYknnf6F39c_g2p66bNxUQ" target="_blank">Access Resources</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>For Muttaky</h2>
+            <div class="card">
+                <h3>Mexemy/Voice of Dhaka ~ Video Editing</h3>
+                <a href="https://terabox.com/s/1pJFp1aJp1dnhabNDSrAk3Q" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Fiverr Clint Hunting Masterclass</h3>
+                <a href="https://terabox.com/s/14pyUn5s3nQ-noLebh-4K9Q" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>Freelance MasterClass by Flux Academy</h3>
+                <a href="https://terabox.com/s/1m5qMpI6q38yHe56HsKECWw" target="_blank">Access Course</a>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>Personal Fitness</h2>
+            <div class="card">
+                <h3>10 Minute School's Personal Fitness Course</h3>
+                <a href="https://terabox.com/s/1f081kEhMuuzUm9I-BkOj_w" target="_blank">Access Course</a>
+            </div>
+            <div class="card">
+                <h3>More Course Coming Soon</h3>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>CSE Core Fundamentals</h2>
+            <div class="card">
+                <h3>More Course Coming Soon</h3>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Web Development</h2>
+            <div class="card">
+                <h3>More Course Coming Soon</h3>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>App Development</h2>
+            <div class="card">
+                <h3>More Course Coming Soon</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="imagePopup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <img src="msg.jpg" alt="Popup Image" />
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; 2025 Course and Resources</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
